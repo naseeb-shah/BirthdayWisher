@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Lobster;
+}
+
+body {
+	font-size: 10vmin;
+	height: 100vh;
+	background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.s-heart {
+	--heart-color: #FF3366;
+	--text-color: #FF57BB;
+	--stroke-color: #FFF;
+	
+	--radius: .2em;
+	--clr-1: #d50000;
+	--clr-2: #c51162;
+	--clr-3: #aa00ff;
+	--clr-4: #2962ff;
+	--clr-5: #00c853;
+	--clr-6: #ffd600;
+	
+	height: 8em;
+	width: 900PX;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: 0;
+	background-image: radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 50% );
+	background-position: 50% 50%;
+	will-change: background-position;
+	animation: confetti ease 1.2s infinite 1.7s, glow ease .3s forwards 1.3s;
+}
+
+.s-heart::before {
+	/* content: ' Happpy birthday Kamlesh singh'; */
+	display: block;
+	position: absolute;
+	color: var( --text-color );
+	font-size: 1.3em;
+	text-shadow: 
+		0 0 .1em var( --stroke-color ),
+		0 0 .05em var( --stroke-color );
+	z-index: 1;
+	margin-top: .1em;
+	animation: 
+		move-s ease-out 1.5s forwards,
+		change-text 10s ease infinite 3s;
+}
+
+.s-heart::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 4em;
+	aspect-ratio: 1;
+	/* background: #F00; */
+	/* background: radial-gradient(ellipse farthest-corner at right 20% bottom 20%, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left 15% top 15%, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	 */
+	--mask:
+		conic-gradient( from 135deg, 
+			#000 25%,
+			transparent 25%
+		) 50% calc( 100% - 1.7em ) / 3em 3em,
+		
+		conic-gradient( from -45deg, 
+			#000 25%,
+			transparent 25%
+		) 50% calc( 100% + 1.3em ) / 3em 3em,
+		
+		radial-gradient( ellipse 50% 50%,
+			#000 98%,
+			transparent 100%
+		) right .14em top 0.45em / 2.15em 2.15em,
+		
+		radial-gradient( ellipse 50% 50%,
+			#000 98%,
+			transparent 100%
+		) left .135em top 0.45em / 2.15em 2.15em;
+	
+	-webkit-mask: var( --mask );
+	-webkit-mask-repeat: no-repeat;
+	
+	mask: var( --mask );
+	mask-repeat: no-repeat;
+	
+	background-repeat: no-repeat;
+	animation: move-heart ease-out 1.5s forwards;
+}
+
+@keyframes move-s {
+	0% {
+		opacity: 0;
+	}
+	
+	40%, 90% {
+		opacity: 1;
+		transform: translateX( -100% );
+	}
+	
+	100% {
+		transform: translateX( 0 );
+	}
+}
+
+@keyframes move-heart {
+	0%, 40% {
+		opacity: 0;
+	}
+	
+	90% {
+		opacity: 1;
+		transform: translateX( 50% );
+	}
+	
+	100% {
+		transform: translateX( 0 ) scale( 1.5 );
+	}
+}
+
+@keyframes confetti {
+	0% {
+		background-size: calc( 2 * var( --radius ) ) calc( 2 * var( --radius ) );
+		background-position: 64% 39%, 33% 50%, 30% 66%, 54% 46%, 44% 41%, 32% 46%, 49% 66%, 53% 69%, 42% 35%, 68% 39%, 53% 51%, 61% 33%, 47% 54%, 57% 67%, 46% 33%, 50% 61%, 50% 46%, 48% 41%, 61% 68%, 68% 44%, 41% 57%, 35% 45%, 33% 38%, 46% 40%, 55% 43%, 68% 53%, 31% 69%, 61% 66%, 34% 69%, 35% 41%, 32% 42%, 42% 39%, 64% 48%, 55% 63%, 58% 48%, 68% 59%, 57% 62%, 47% 40%, 58% 69%, 58% 48%, 44% 45%, 39% 43%, 40% 52%, 30% 47%, 69% 53%, 39% 55%, 70% 66%, 63% 48%, 60% 38%, 40% 52%;
+	}
+	
+	45% {
+		background-size: calc( 2 * var( --radius ) ) calc( 2 * var( --radius ) );
+	}
+	
+	100% {
+		background-position: 83% 23%, 17% 87%, -3% 65%, 35% 83%, 14% 72%, 82% 95%, 59% 78%, 16% 61%, 51% 62%, 26% 0%, 6% 17%, 106% 78%, 24% 46%, 36% 43%, 28% 19%, 50% 12%, 49% 51%, 79% 19%, 42% 36%, 54% 51%, 68% 101%, 57% 7%, 79% 29%, 28% 90%, 100% 73%, 65% 51%, 22% 81%, 84% 89%, 70% 91%, 18% 22%, -9% 77%, 39% -11%, 89% 3%, 36% 96%, 97% 38%, 94% 83%, 63% 95%, 45% 32%, 62% 115%, 74% 26%, 70% 14%, 79% 55%, 60% 63%, 14% 80%, 40% 101%, 86% 73%, 120% 40%, 27% 0%, 56% 11%, -9% 26%;
+    background-size: 0 0;
+	}
+}
+
+@keyframes glow {
+	100% {
+		filter: drop-shadow( 0 0 1em #D1B464 );
+	}
+}
+
+@keyframes change-text {
+	0%, 10%, 100% {
+		content: '';
+		opacity: 1;
+	}
+	
+	25% {
+		/* content: 'Happy Birthday Kamlesh Singh '; */
+		opacity: 0;
+	}
+	
+	26% {
+		/* content: 'Wishing you many more years of  '; */
+		opacity: 1;
+	}
+	
+	50%, 60% {
+		/* content: 'good health and prosperity. Thank '; */
+		opacity: 1;
+	}
+	
+	75% {
+		/* content: 'You for living your life in a way that makes every day worth celebrating.'; */
+		opacity: 1;
+	}
+	
+	76% {
+		/* content: 'Happiest of birthdays!'; */
+		opacity: 1;
+	}
+}
